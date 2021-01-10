@@ -11,7 +11,7 @@ Made my Haozhe Si, 01/10/2021
 Use SpaCy model to perform denpendency parsing. Don't have to install if not modifying ```myindex```. The model is not 100% accurate and may cause some issues in searching. 
 ```python
 pip install spacy
-python -m spacy download en_core_web_sm
+python -m spacy download en_core_web_md
 ```
 ### Whoosh
 Use Whoosh module to build the searching engine.
